@@ -132,3 +132,12 @@
   filter:none!important;
   opacity:1!important;
 }
+
+
+/* Correct hero: verified La Pirogue ocean balcony */
+.hero{
+ background-image:linear-gradient(90deg,rgba(2,27,52,.34),rgba(2,27,52,.04) 62%),url("3ED6DF09-FBD2-404E-9372-1AE1595371A5.PNG")!important;
+ background-size:cover!important;
+ background-position:center 54%!important;
+ background-repeat:no-repeat!important;
+}
