@@ -73,3 +73,30 @@
 .ballito-copy{padding:45px 2vw!important}
 .ballito-copy h2{font-family:Georgia,serif!important;font-size:clamp(52px,4.5vw,72px)!important;line-height:.95!important}
 @media(max-width:800px){.brand-wordmark .constellation{display:none}.hero{height:auto!important;min-height:720px!important}.hero h1{font-size:58px!important}}
+
+
+/* FINAL FIX — exact supplied assets */
+.hero{
+  background-image:linear-gradient(90deg,rgba(2,27,52,.34),rgba(2,27,52,.04) 62%),url("0E65D853-713B-496D-9901-ED896C7DC0B4.PNG")!important;
+  background-size:cover!important;
+  background-position:center center!important;
+  background-repeat:no-repeat!important;
+}
+.exact-logo{
+  width:240px!important;
+  height:94px!important;
+  overflow:hidden!important;
+  background:transparent!important;
+  mix-blend-mode:multiply;
+}
+.exact-logo img{
+  width:100%!important;
+  height:100%!important;
+  object-fit:contain!important;
+  object-position:left center!important;
+  display:block!important;
+}
+@media(max-width:800px){
+  .exact-logo{width:170px!important;height:72px!important}
+  .hero{background-position:center center!important}
+}
