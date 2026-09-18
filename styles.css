@@ -100,3 +100,16 @@
   .exact-logo{width:170px!important;height:72px!important}
   .hero{background-position:center center!important}
 }
+
+
+/* Transparent logo treatment — remove white rectangle from supplied logo artwork */
+.exact-logo{
+  background:transparent!important;
+  overflow:visible!important;
+  mix-blend-mode:screen!important;
+}
+.exact-logo img{
+  mix-blend-mode:screen!important;
+  filter:grayscale(1) brightness(0) invert(1) contrast(3)!important;
+  opacity:.96!important;
+}
