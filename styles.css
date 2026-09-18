@@ -13,3 +13,6 @@
 
 /* Corrected hero + company logo */
 .hero{background-image:linear-gradient(90deg,rgba(3,31,62,.50) 0%,rgba(3,31,62,.16) 48%,rgba(3,31,62,.02) 100%),url("3ED6DF09-FBD2-404E-9372-1AE1595371A5.PNG")!important;background-size:cover!important;background-position:center center!important;background-repeat:no-repeat!important}.brand-logo{display:block!important;width:190px!important;height:92px!important;overflow:hidden!important}.brand-logo img{display:block!important;width:100%!important;height:100%!important;object-fit:contain!important;object-position:left center!important}
+
+/* Safety correction: use only verified real property photo in repo; transparent wordmark */
+.hero{background-image:linear-gradient(90deg,rgba(3,31,62,.48) 0%,rgba(3,31,62,.14) 48%,rgba(3,31,62,.02) 100%),url("IMG_7832.jpg")!important;background-size:cover!important;background-position:center center!important;background-repeat:no-repeat!important}.brand-wordmark{display:flex!important;align-items:center!important;gap:10px!important;background:transparent!important;color:#fff!important}.brand-wordmark strong{display:block!important;font-size:22px!important;letter-spacing:3px!important}.brand-wordmark small{display:block!important;font-size:9px!important;letter-spacing:4px!important;margin-top:5px!important}.brand-wordmark .brand-mark{font-size:18px!important}
