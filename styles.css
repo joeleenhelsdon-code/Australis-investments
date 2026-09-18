@@ -113,3 +113,22 @@
   filter:grayscale(1) brightness(0) invert(1) contrast(3)!important;
   opacity:.96!important;
 }
+
+
+/* Uploaded transparent PNG logo — show its native transparency */
+.exact-logo{
+  width:250px!important;
+  height:100px!important;
+  background:transparent!important;
+  overflow:visible!important;
+  mix-blend-mode:normal!important;
+}
+.exact-logo img{
+  width:100%!important;
+  height:100%!important;
+  object-fit:contain!important;
+  object-position:left center!important;
+  mix-blend-mode:normal!important;
+  filter:none!important;
+  opacity:1!important;
+}
