@@ -21,3 +21,31 @@
 
 /* FINAL VERIFIED HERO MAPPING: 3ED6... is the empty daytime terrace */
 .hero{background-image:linear-gradient(90deg,rgba(3,31,62,.46) 0%,rgba(3,31,62,.12) 50%,rgba(3,31,62,.01) 100%),url("3ED6DF09-FBD2-404E-9372-1AE1595371A5.PNG")!important;background-size:cover!important;background-position:center center!important;background-repeat:no-repeat!important}
+
+/* Approved luxury homepage redesign */
+.site-header{height:108px;padding:0 4.5vw}
+.brand-wordmark .constellation{font-family:Georgia,serif;font-size:20px;letter-spacing:2px}
+.brand-wordmark strong{font-family:Georgia,serif!important;font-size:29px!important;font-weight:400!important;letter-spacing:7px!important}
+.brand-wordmark small{font-size:10px!important;letter-spacing:6px!important;text-align:center}
+.site-header nav{gap:34px}
+.site-header nav a{text-transform:uppercase;letter-spacing:.19em;font-size:10px}
+.nav-cta{background:#061f3d;border:0!important;padding:20px 28px!important}
+.hero{min-height:100vh;padding:145px 4.5vw 70px!important;align-items:center;background-position:center center!important}
+.hero:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(2,26,49,.38),rgba(2,26,49,.06) 62%,rgba(2,26,49,.01));z-index:1}
+.hero-copy{max-width:720px;z-index:2}
+.hero .eyebrow{font-size:12px;letter-spacing:.3em;margin-bottom:12px}
+.hero h1{font-family:Georgia,serif;font-size:clamp(70px,7.2vw,118px);line-height:.84;letter-spacing:-.045em;margin:18px 0 28px}
+.hero h1 em{font-style:italic}
+.hero .lede{font-size:19px;line-height:1.55;max-width:520px;color:#fff}
+.hero .button{background:#061f3d;border:0;padding:21px 27px;text-transform:uppercase;letter-spacing:.15em}
+.scroll{left:auto;right:4.5vw}
+.ballito-feature{min-height:610px;background:#faf8f3;padding:22px 3vw;grid-template-columns:1.25fr .95fr;gap:4vw}
+.ballito-photo{min-height:560px;background-image:url("IMG_7832.jpg");background-position:center;background-size:cover}
+.ballito-copy{padding:65px 4vw}
+.ballito-copy .section-no{color:#9a7740;font-size:11px}
+.ballito-copy h2{font-family:Georgia,serif;font-size:clamp(55px,5vw,80px);color:#082b55}
+.ballito-copy h2 em{font-style:normal}
+.ballito-copy>p:not(.section-no){font-family:"DM Sans",sans-serif;font-size:18px;color:#74808d}
+.location-link{font-size:11px}
+@media(max-width:1000px){.site-header nav{gap:15px}.site-header nav a{font-size:8px}.brand-wordmark strong{font-size:22px!important}.hero h1{font-size:clamp(62px,10vw,100px)}}
+@media(max-width:800px){.site-header{height:82px}.brand-wordmark strong{font-size:18px!important}.brand-wordmark small{font-size:7px!important}.constellation{display:none}.hero{padding:120px 7vw 70px!important;background-position:center!important}.hero h1{font-size:60px}.ballito-feature{grid-template-columns:1fr;padding:18px}.ballito-photo{min-height:390px}.ballito-copy{padding:45px 6vw}}
