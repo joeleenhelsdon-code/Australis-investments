@@ -7,3 +7,6 @@
 
 /* Correct header fallback: never show a property photo as the company logo */
 .brand-wordmark{display:flex!important;align-items:center!important;gap:10px!important;color:#fff!important;text-decoration:none!important}.brand-wordmark .brand-mark{font-size:18px!important}.brand-wordmark strong{display:block!important;font-family:Arial,sans-serif!important;font-size:22px!important;letter-spacing:3px!important;line-height:1!important}.brand-wordmark small{display:block!important;font-family:Arial,sans-serif!important;font-size:9px!important;letter-spacing:4px!important;margin-top:6px!important}.footer-brand{display:flex;flex-direction:column}.footer-brand strong{letter-spacing:3px}.footer-brand small{letter-spacing:4px}
+
+/* User-selected alternate hero */
+.hero{background-image:linear-gradient(90deg,rgba(3,31,62,.54) 0%,rgba(3,31,62,.18) 48%,rgba(3,31,62,.02) 100%),url("CAD7B80B-0C94-4D8E-92CE-E4BACACB7416.JPEG")!important;background-size:cover!important;background-position:center center!important;background-repeat:no-repeat!important}
